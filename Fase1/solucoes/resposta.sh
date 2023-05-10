@@ -8,7 +8,7 @@ groupadd -g 1000 administracao
 groupadd -g 2000 enfermeiros
 groupadd -g 3000 medicos
 
-log_archive="/var/log/createusers.log"
+log_archive="/var/log/createusers.log" # Arquivo onde será gerado o log.
 
 # O comando useradd serve para adicionar um usuário no sistema.
 # A flag -u permite você escolher o UID (User ID)
